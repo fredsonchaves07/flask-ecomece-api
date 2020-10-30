@@ -1,0 +1,14 @@
+[default]
+SQLALCHEMY_TRACK_MODIFICATIONS = false
+
+
+[development]
+SQLALCHEMY_DATABASE_URI = "postgresql://postres:"
+
+
+[production]
+
+
+
+[testing]
+SQLALCHEMY_DATABASE_URI = "sqlite://"
