@@ -7,3 +7,4 @@ def init_app(app):
     # O preixo será utilizado em todas as rotas da aplicação
     api = Api(app, prefix="/api")
     api.add_resource(auth.Login, "/auth/login")
+    api.add_resource(auth.Register, "/auth/register")
